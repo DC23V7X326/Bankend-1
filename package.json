@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "DC23V7X326",
   "main": "Server.js",
-
   "script": {
-  "start": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "Nguyen Quoc Viet",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
   },
   "devDependencies": {
     "eslint": "^9.25.0",
